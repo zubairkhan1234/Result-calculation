@@ -17,25 +17,25 @@ function Submission() {
         document.getElementById("grade-result").innerText = "Fail";
 
     }
-    else if (percentage <= 40) {
+    else if (percentage < 40) {
         document.getElementById("grade-result").innerText = "E";
 
-    } else if (percentage <= 50) {
+    } else if (percentage < 50) {
         document.getElementById("grade-result").innerText = "D";
 
-    } else if (percentage <= 60) {
+    } else if (percentage < 60) {
 
         document.getElementById("grade-result").innerText = "C";
 
-    } else if (percentage <= 70) {
+    } else if (percentage < 70) {
 
         document.getElementById("grade-result").innerText = "B";
 
-    } else if (percentage <= 80) {
+    } else if (percentage < 80) {
 
         document.getElementById("grade-result").innerText = "A";
 
-    } else if (percentage <= 90) {
+    } else if (percentage < 90) {
 
         document.getElementById("grade-result").innerText = "A1";
 
