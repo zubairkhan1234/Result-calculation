@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+
+    <form action="#" onsubmit="Submission()">
+
+        <H1>Marksheet Result Calculation :</H1>
+
+        Obtained Marks :
+        <input class="com" type="number" id="num1" placeholder="Passing Marks" required> <br>
+        Total Marks : &nbsp;&nbsp;&nbsp;
+        <input type="number" id="num2" placeholder="Total Marks" required> <br>
+
+        <button>Calculate</button>
+
+        <h2>Result :</h2>
+        <table>
+            <tr>
+                <th>Passing Marks</th>
+                <th>Total Marks</th>
+                <th>Percentage</th>
+                <th>Grade</th>
+            </tr>
+
+            <tr>
+                <td id="passing-marks-result"></td>
+                <td id="total-marks-result"></td>
+                <td id="percentage-result"></td>
+                <td id="grade-result"></td>
+            </tr>
+        </table>
+    </form>
+
+
+
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
